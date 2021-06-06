@@ -1,0 +1,41 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+/*@import "~react-datepicker/dist/react-datepicker.css";*/
+
+.dateTimeRangeSelector {
+    align-content: center;
+    vertical-align: center;
+}
+
+.dateTimeRangeSelector-date {
+    display: inline-block;
+}
+.dateTimeRangeSelector-date label {
+    font-weight: bolder;
+}
+
+.dateTimeRangeSelector-start {
+    display: inline-block;
+    margin: auto;
+    margin-left: 2em;
+    align-content: center;
+}
+.dateTimeRangeSelector-start label{
+    font-weight: bolder;
+}
+.dateTimeRangeSelector-start input {
+    margin: auto;
+}
+
+.dateTimeRangeSelector-end {
+    display: inline-block;
+    margin-left: 2em;
+}
+.dateTimeRangeSelector-end label {
+    font-weight: bolder;
+}
+
+.react-datepicker__input-container input {
+    width: 7.5em;
+    font-size: small;
+}
+

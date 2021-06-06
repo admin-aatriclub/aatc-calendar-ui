@@ -1,0 +1,18 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.editor {
+    margin: auto;
+    text-align: left;
+    /*max-width: 80%;*/
+}
+
+.editor label {
+    text-align: left;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.userName {
+    text-align: left;
+    font-size: xx-small;
+}

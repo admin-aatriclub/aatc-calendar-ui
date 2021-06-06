@@ -1,0 +1,89 @@
+@import '~react-bootstrap-buttons/dist/react-bootstrap-buttons.css';
+
+.event-title label {
+    text-align: left;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.event-title {
+    text-align: left;
+}
+
+.descriptionHtml {
+    text-align: left;
+}
+
+.descriptionHtml label {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.location {
+    text-align: left;
+}
+.location label {
+    text-align: left;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.organizer {
+    text-align: left;
+}
+.organizer label {
+    text-align: left;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.event-start {
+    text-align: left;
+}
+
+.event-start label {
+    text-align: left;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.event-end {
+    text-align: left;
+}
+.event-end label {
+    text-align: left;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.registrations {
+    text-align: left;
+}
+.registrations label {
+    text-align: left;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#registrations {
+    text-align: left;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 95%;
+}
+
+#registrations td, #registrations th {
+    border: 1px solid #ddd;
+}
+
+/*#registrations tr:nth-child(even){*/
+/*    background-color: #f2f2f2;*/
+/*}*/
+#registrations tr:hover {
+    background-color: #b1dfbb;
+}
+
+.userName {
+    text-align: left;
+    font-size: xx-small;
+}
