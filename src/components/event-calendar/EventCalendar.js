@@ -44,7 +44,7 @@ export default class EventCalendar extends React.Component {
     }
 
     handleEventClick = (arg) => {
-        console.log("EVENT CLICK", arg, this.props.member);
+        // at the point of the click to come here,  it is fullcalendar that owns the event and is using the background color.  :-(
         if (! (this.props.member.id === 0 && arg.event.backgroundColor === 'green')) {
             this.setState({
                 showEvent: true,
@@ -124,6 +124,14 @@ export default class EventCalendar extends React.Component {
                         />
                         {this.state.isLoggedInUser ? <Button xs onClick={this.createEvent}>Create Event</Button> :
                             <div></div>}
+
+                        <div style={{textAlign: 'left',fontSize: '11px',columnCount: 5, border: '1px solid black'}}>
+                            <div>Legend</div>
+                            <div><div className="fc-daygrid-event-dot" style={{borderColor: 'orange', float: 'left'}}/> Workout</div>
+                            <div><div className="fc-daygrid-event-dot" style={{borderColor: 'blue', float: 'left'}}/> Education</div>
+                            <div><div className="fc-daygrid-event-dot" style={{borderColor: 'green', float: 'left'}}/> Member Event</div>
+                            <div><div className="fc-daygrid-event-dot" style={{borderColor: 'red', float: 'left'}}/> Race</div>
+                        </div>
                         <div className="userName">
                             {this.props.member.displayName != null ? this.props.member.displayName : 'Anonymous'}
                         </div>

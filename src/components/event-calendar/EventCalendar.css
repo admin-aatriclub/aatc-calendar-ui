@@ -69,6 +69,6 @@ b { /* used for event dates/times */
 }
 
 .userName {
-    text-align: left;
+    text-align: right;
     font-size: xx-small;
 }
